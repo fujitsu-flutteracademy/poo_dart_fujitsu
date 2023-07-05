@@ -15,6 +15,14 @@ class Moto extends Propiedades {
   int ruedas = 2;
 }
 
+class Coche extends Propiedades {
+  int ruedas = 4;
+}
+
+class Camion extends Propiedades {
+  int ruedas = 8;
+}
+
 void main() {
   final newProp = Propiedades();
   print(newProp.encendido);
